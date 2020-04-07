@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.imgur.com/Bb84dSx.png"><br>
+  <img src="https://i.imgur.com/ohWDCpg.png"><br>
   <b>Switchblade's new API, now completely separate from the bot itself.<br>
     <span style="font-size: 12">Yup, we are doing this over again</span>
   <br>
