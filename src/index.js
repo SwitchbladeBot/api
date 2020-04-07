@@ -8,9 +8,10 @@ const PORT = process.env.PORT || 80
 // Routes
 const contributorsRoute = require('./routes/contributors')
 
-app.use(contributorsRoute())
 // TODO: configure cors
 app.use(cors())
+
+app.use(contributorsRoute())
 // TODO: morgan log
 
 app.get('/', (req, res) => {
