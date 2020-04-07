@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="https://i.imgur.com/ohWDCpg.png"><br>
+  <img src="https://i.imgur.com/ohWDCpg.png"<br>
+  
   <b>Switchblade's new API, now completely separate from the bot itself.<br>
     <span style="font-size: 12">Yup, we are doing this over again</span>
   <br>
@@ -9,3 +10,5 @@
     <a href="https://david-dm.org/SwitchbladeBot/api?type=dev"><img src="https://david-dm.org/SwitchbladeBot/api/dev-status.svg?style=flat-square"/></a>
   </p>
 </div>
+
+<img src="https://i.imgur.com/nDR0P2H.jpg">
