@@ -9,6 +9,6 @@
     <a href="https://david-dm.org/SwitchbladeBot/api"><img src="https://david-dm.org/SwitchbladeBot/api/status.svg?style=flat-square"/></a>
     <a href="https://david-dm.org/SwitchbladeBot/api?type=dev"><img src="https://david-dm.org/SwitchbladeBot/api/dev-status.svg?style=flat-square"/></a>
   </p>
-</div>
 
 <img src="https://i.imgur.com/nDR0P2H.jpg">
+</div>
