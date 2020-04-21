@@ -29,7 +29,7 @@ if (process.env.NODE_ENV === 'production') {
   }))
 }
 
-app.use(morgan("combined", { stream: { write: message => logger.info(message.trim(), { label: 'HTTP' })}}))
+app.use(morgan('combined', { stream: { write: message => logger.info(message.trim(), { label: 'HTTP' }) } }))
 
 // TODO: Set up CORS
 app.use(cors())
@@ -39,7 +39,7 @@ const contributorsRoute = require('./routes/contributors')
 app.use(contributorsRoute())
 
 app.get('/', (req, res) => {
-  res.json({ message: "Hello World" })
+  res.json({ message: 'Hello World' })
 })
 
 app.use(Sentry.Handlers.errorHandler())

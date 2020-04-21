@@ -7,7 +7,7 @@ module.exports = () => {
   router.get('/contributors', async (_, res) => {
     const rolesResponse = await DiscordAPI.request(`guilds/${process.env.GUILD_ID}/roles`)
     const membersResponse = await DiscordAPI.request(`guilds/${process.env.GUILD_ID}/members?limit=1000`)
-  
+
     const roles = rolesResponse
       .filter(r => r.hoist)
       .sort((a, b) => b.position - a.position)
@@ -23,10 +23,9 @@ module.exports = () => {
           }).filter(u => u)
         }
       }).filter(r => r.members.length > 0)
-  
+
     res.json({ roles })
   })
 
   return router
 }
-
